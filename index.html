@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+   <script type="text/javascript" src="app.js">
+
+   </script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+  <body>
+
+      
+    <!--Left side of the newsletter, contains the text, bullet points and input -->
+    <form method="get" action="success.html" class="formClass" id="emailForm">
+      <section class="main-section">
+
+            <div class="info-text">
+              
+              <h1 class="info-title" style="display: flex;">Stay updated!</h1>
+              
+              <div class="info-pos">
+                
+                <span class="small-text" id="small-size" style="display: flex;">Join 60,000+ product managers recieving monthly updates on:</span>
+                
+                <li style="margin-top: 15px;">
+                
+                  <div class="bullet-icons" style="flex-direction: column;">
+                
+                    <ul id="list-flex"><img src="assets/images/icon-list.svg" id="button-icon"><span id="small-size">Product discovery and building what matters</span></ul>
+                    <ul id="list-flex"><img src="assets/images/icon-list.svg" id="button-icon"><span id="small-size">Measuring to ensure updates are a success</span></ul>
+                    <ul id="list-flex"><img src="assets/images/icon-list.svg" id="button-icon"><span id="small-size">And much more!</span></ul>
+                
+                  </div>
+                
+                </li>
+                
+              </div>
+              <span class="smallest-text">Email address</span>
+              <input type="email" name="news-email" placeholder="email@company.com" class="email-address" id="email" required>
+              <input type="submit" class="submit-btn" id="submitButton" value="Subscribe to monthly newsletter">
+              
+            </div>
+
+            <div class="main-picture">
+              <img src="assets/images/illustration-sign-up-desktop.svg" class="newsletter-pic">
+            </div>
+            
+        </section>
+      </form>
+      <!-- Sign-up form start -->
+
+      <!-- Stay updated!
+
+      Join 60,000+ product managers receiving monthly updates on:
+
+      Product discovery and building what matters
+      Measuring to ensure updates are a success
+      And much more!
+
+      Email address
+      email@company.com
+
+      Subscribe to monthly newsletter -->
+
+      <!-- Sign-up form end -->
+
+      <!-- Success message start -->
+    <!-- 
+      Thanks for subscribing!
+
+      A confirmation email has been sent to ash@loremcompany.com. 
+      Please open it and click the button inside to confirm your subscription.
+
+      Dismiss message -->
+
+      <!-- Success message end -->
+      
+      <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Darren Harris</a>.
+      </div> -->
+  </body>
+</html>

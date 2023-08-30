@@ -1,0 +1,196 @@
+body {
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /** vh = viewport height */
+}
+
+li {
+    list-style-type: none; /** removes unnecessary bullet point **/
+    justify-content: space-around;
+}
+
+h1, li{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ul {
+    display: flex;
+    padding-left: 0;
+    /* margin: 0; */
+}
+
+.main-section {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50vh;
+    width: auto;
+    border-style: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.newsletter-pic {
+    width: 100%;
+    height: 50vh;
+}
+
+.info-title {
+    display: flex;
+    font-size: 3vw;
+    margin-bottom: 15px;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 100px; */
+    /* font-size: 10px; */
+    /* margin: auto; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 23vw;
+}
+
+.bullet-icons {
+    display: flex;
+    line-height: 40px;
+}
+
+
+/* .smaller-text {
+    width: 75vh;
+} */
+
+/* .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} */
+
+.small-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vh;
+    /* padding-right: 20px; */
+    font-family: 'Roboto', sans-serif;
+    line-height: 15px;
+}
+
+.email-address {
+    display: flex;
+    margin-bottom: 10px;
+    height: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    opacity: 0.4;
+    border-color: hsl(231, 7%, 60%);
+    border-width: 1.5px;
+    /* cursor: pointer; */
+    padding-left: 15px;
+    padding: 10px 10px;
+    font-size: 1vw;
+    width: 19.75vw;
+    color: black;
+
+    /* color: black; */
+
+}
+
+/* .email-address, .submit-btn {
+    display: flex;
+    width: 30vw;
+    height: 5vh;
+} */
+
+.email-address:active, .email-address:hover {
+    opacity: 1;
+}
+
+.smallest-text {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 8px;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+
+.submit-btn {
+    display: flex;
+    height: 30px;
+    background-color:  hsl(234, 29%, 20%);
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 20px 20px;
+    padding-bottom: 30px;
+    width: 22vw;
+    flex-wrap: nowrap;
+}
+
+.submit-btn:hover {
+    background-color: hsl(4, 100%, 67%);
+}
+
+.submit-btn:active {
+    opacity: 0.6;
+}
+
+#small-size {
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#button-icon {
+    margin-right: 10px;
+    width: 15px;
+    display: flex;
+}
+
+#list-flex {
+    display: flex;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+}
+
+
+/***** SUCCESS.HTML *****/
+
+.main-success {
+    display: flex; 
+    flex-direction: column;
+    padding: 30px 30px;  
+    width: 40vh;
+    padding-top: 20px;
+}
+
+.success-check {
+    width: 45px;
+    display: flex;
+}
+
+
+.confirm-para {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.emailOutput {
+    font-weight: bold;
+}
